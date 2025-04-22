@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    color: #ff4c4c;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff4c4c;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+  }
+  
+  .profile-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #ff4c4c;
+    background-color: #1a1a1a;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .intro h1 span {
+    color: #ff4c4c;
+  }
+  
+  .intro h2 {
+    font-size: 24px;
+    color: #999;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #ff4c4c;
+  }
+  
+  .intro p {
+    font-size: 16px;
+    max-width: 500px;
+    margin-bottom: 20px;
+    color: #aaa;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: transparent;
+    color: #ff4c4c;
+    border: 2px solid #ff4c4c;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff4c4c;
+    color: #fff;
+  }
+  
+  .icon-btn {
+    color: #ff4c4c;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid #ff4c4c;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  .icon-btn:hover {
+    background-color: #ff4c4c;
+    color: #fff;
+  }
+  
